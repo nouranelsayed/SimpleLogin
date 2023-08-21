@@ -1,0 +1,67 @@
+body
+{
+    background-image:url(https://img.freepik.com/free-photo/gradient-dark-blue-futuristic-digital-background_53876-102619.jpg?w=1060&t=st=1692622549~exp=1692623149~hmac=7948e80b97a20453c40818196b72e27c39181d86bc99e6b4d4470c9a6393b991);
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat no-repeat;
+
+    font-family: sans-serif;
+}
+:root
+{
+    --darkBlueShadow:#17a2b8;
+}
+.form-control:focus 
+{
+    border-color:var(--darkBlueShadow);
+    box-shadow: none;
+}
+h1
+{
+    font-size: 40px;
+    color: var(--darkBlueShadow);
+}
+.submit-btn  .btn
+{
+    border:1px solid var(--darkBlueShadow);
+    color: var(--darkBlueShadow);
+}
+.submit-btn  .btn:hover
+{
+    background-color: var(--darkBlueShadow);
+    color: white;
+}
+.account-question  a:hover
+{
+    text-decoration: underline !important;
+}
+.btn-outline-warning
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn-outline-warning:hover 
+{
+    color: rgba(255, 255, 255, 0.75);
+}
+.home-content p 
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--darkBlueShadow);
+}
+.boxShadow
+{
+    box-shadow:10px 10px 30px 8px rgba(0,0,0,0.8) ;
+}
+@media  screen and (max-width:991px){
+    h1
+    {
+        font-size: 25px;
+    }
+}
+#welcomeMassage{
+
+    font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive;
+}
